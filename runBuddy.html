@@ -24,7 +24,7 @@
                         <a href="#what-you-do">What you do</a>
                     </li>
                     <li>
-                        <a href='your-trainers'>Your Trainers</a>
+                        <a href='#your-trainers'>Your Trainers</a>
                     </li>
                     <li>
                         <a href='#reach-out'> Reach Out</a>
@@ -41,11 +41,13 @@
 
                 <form>
                     <label for="name">Enter Full Name:</label>
-                    <input id="name" type="text" name="name" placeholder='Your Name'/>
-                    <label for="email">Enter Email Address:</label>
-                    <input id='email'type='email' name='email' placeholder="Email Address"/>
+                    <input id="name" type="text" name="name" class="form-input" placeholder="Your Name"/>
+
+                    <label for="email"> Enter Email Address: </label>
+                    <input id='email' type='email' name='email' placeholder="Email Address" class="form-input" />
+                    
                     <label for='phoneNumber'> Enter a telephone number:</label>
-                    <input id='phoneNumber' type='tel' name='phoneNumber' placeholder="Phone Number"/>
+                    <input id='phoneNumber' type='tel' name='phoneNumber' placeholder="Phone Number" class="form-input"/>
                     <p>
                         Have you worked out with a trainer before?
                         <input type='radio' name='trainer-confirm' id='trainer-yes' />
@@ -68,17 +70,50 @@
         <!-- end of hero -->
 
         <!-- "what we do" Section -->
-        <section>
+        <section id='what-we-do'>
             <h2 >What We Do</h2>
+            <br/>
+            <p>
+                butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+            </p>
         </section>
 
+        <!-- What you do section -->
+        <section id='what-you-do'>
+            <h2>What you do</h2>
+
+            <div>
+                <img src='./assets/icons/step-1.svg' alt='' />
+                <h3 id='step1'>Step 1: Fill Out the Form Above.</h3>
+                <p>You're already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src='./assets/icons/step-2.svg' alt='' />
+                <h3 id='step2'>Step 2: Consult with One of Our Trainers.</h3>
+                <p>Are you here to build muscle, lose weightm or just feel good?</p>
+            </div>
+
+            <div>
+                <img src='./assets/icons/step-3.svg' alt='' />
+                <h3 id='step3'>Step 3: Get Running.</h3>
+                <p>Hit the gound running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div>
+                <img src='./assets/icons/step-4.svg' alt='' />
+                <h3 id='step4'>Step 4: See Results.</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+            </div>
+        </section>
+        
         <!--"meet the trainers" section -->
-        <section>
+        <section id='your-trainers'>
             <h2> Meet The Trainers</h2>
         </section>
 
         <!-- Reach out section -->
-        <section>
+        <section id='reach-out'>
             <h2>Reach Out</h2>
         </section>
 
