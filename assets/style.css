@@ -43,7 +43,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;    
 }
@@ -89,6 +89,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero-form {
@@ -140,7 +141,7 @@ h3 {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -153,7 +154,7 @@ h3 {
 /* What we do styling */
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -337,4 +338,36 @@ h3 {
     display: flex;
 }
 
+/* 
+Media query for smaller desktop screens and smaller
+@media screen and (max-width:980px) {
+    header h1 a {
+        /* this will be applied on any sceen smaller than 980px */
+        /* color:tomato;
+    }
+    
+    
+} */
 
+/* media query for tablets and smaller */
+/* @media screen and (max-width: 786px){
+    header h1 {
+        /* this will be applied on any screen between 786 and 575px */
+        /* font-size: 80px;
+    }
+} */
+
+/* media query for moble phones and smaller */
+/* @media screen and (max-width:575px) {
+    header h1 {
+        /* this will be applied on any sceensmaller that 575px */
+        /* font-size: 100px;
+    }
+/*     
+} */ */ */ */ */
+
+
+
+@media screen and (max-width: 980px) {
+
+}
